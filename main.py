@@ -25,5 +25,5 @@ if __name__ == '__main__':
     bestand_tsv = 'HoPE_FA-mat-exp_Module-2_output_Cleaned-protein-'\
                   'abundances_tidy_20230911_131010.tsv'
     list = get_colums(bestand_tsv)
-    # print(list)
+    print(list)
     read_file(bestand_tsv,list)
